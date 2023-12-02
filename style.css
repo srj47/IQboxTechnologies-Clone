@@ -4,7 +4,7 @@
 	[Master Stylesheet]
 	Theme Name: Travele
 	Theme URI: https://themeforest.net/user/keonthemes
-	Description: IQbox Technologies is an expressive, virtuous, user friendly and powerful HTML 5 Template suitable for any travel or tour agency, hotel, flight websites. Easy to use & customize, code & design quality, responsive theme, creative sliders, flexibility, many of premade pages, multiple portfolio options, responsive blog options and quick support – these are the outstanding features and quality to make you stand out from the crowd. This template boasts clean features, modern and unique design which make your website more beautiful. This template was built in Bootstrap 4, HTML5 and CSS3.
+	Description: IQBOX is an expressive, virtuous, user friendly and powerful HTML 5 Template suitable for any travel or tour agency, hotel, flight websites. Easy to use & customize, code & design quality, responsive theme, creative sliders, flexibility, many of premade pages, multiple portfolio options, responsive blog options and quick support – these are the outstanding features and quality to make you stand out from the crowd. This template boasts clean features, modern and unique design which make your website more beautiful. This template was built in Bootstrap 4, HTML5 and CSS3.
 	Author: Keon Themes
 	Author URI: https://themeforest.net/user/keonthemes
 	Version: 1.0.0
@@ -784,7 +784,7 @@ input[type=time],
 input[type=datetime],
 input[type=datetime-local],
 input[type=color] {
-  height: 48px;
+  height: 34px;
 }
 
 input[type=text],
@@ -1519,6 +1519,7 @@ input[type=submit]:focus {
   top: 0;
   z-index: 99;
   background-color: white;
+  padding-inline: 20px;
 }
 
 /*--- top header css start ---*/
@@ -1739,7 +1740,7 @@ input[type=submit]:focus {
   color: #fff;
   display: inline-block;
   font-size: 15px;
-  padding: 30px 0; 
+  padding: 10px 0;
   line-height: 1.3;
   position: relative;
   text-transform: uppercase;
@@ -2129,7 +2130,7 @@ input[type=submit]:focus {
 
 .fixed-header .main-navigation .navigation>ul>li>a {
   color: #101F46;
-  padding: 22px 0;
+  padding: 10px 0;
 }
 
 .fixed-header .main-navigation .navigation>ul>li>a:before {
@@ -2157,6 +2158,7 @@ input[type=submit]:focus {
     width: 100%;
     left: 0;
     z-index: 999;
+    padding-inline: 20px;
   }
 
   .fixed-header .mobile-menu-container .slicknav_btn .slicknav_icon span {
@@ -2164,13 +2166,10 @@ input[type=submit]:focus {
   }
 
   .fixed-header .mobile-menu-container .slicknav_nav {
-    min-height: calc(100vh - 78px);
-    height: 100%;
-    overflow-y: scroll;
     position: absolute;
-    width: 100%;
     left: 0;
     right: 0;
+    margin-inline: 20px;
   }
 
   .fixed-header .mobile-menu-container .slicknav_menu .slicknav_menutxt {
@@ -2209,7 +2208,7 @@ input[type=submit]:focus {
   -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
-  justify-content: center;
+  justify-content: right;
   -ms-flex-pack: center;
   -webkit-flex-direction: row-reverse;
   -moz-flex-direction: row-reverse;
@@ -2225,7 +2224,7 @@ input[type=submit]:focus {
 }
 
 .mobile-menu-container .slicknav_menu .slicknav_menutxt {
-  color: #FFF;
+  color: black;
   text-shadow: none;
   font-weight: normal;
   font-size: 16px;
@@ -2311,6 +2310,7 @@ input[type=submit]:focus {
 
 .slicknav_menu .slicknav_icon-bar {
   background-color: #242424;
+  color: black;
 }
 
 .slicknav_menu .slicknav_nav ul {
@@ -2396,7 +2396,7 @@ input[type=submit]:focus {
 }
 
 .slicknav_btn .slicknav_icon span {
-  background-color: #FFF;
+  background-color: #101010;
   box-shadow: none;
   display: none;
   position: absolute;
@@ -2418,7 +2418,7 @@ input[type=submit]:focus {
 
 .slicknav_btn .slicknav_icon span:first-child:before,
 .slicknav_btn .slicknav_icon span:first-child:after {
-  background-color: #FFF;
+  background-color: #191919;
   content: "";
   position: absolute;
   width: 100%;
@@ -10432,8 +10432,6 @@ product checkout css
   }
 
   .mobile-menu-container {
-    background-color: rgba(56, 56, 56, 0.9);
-    background-color: rgba(0, 0, 0, 0.4);
     color: #000 !important;
     padding: 1px 0px;
   }
@@ -10544,6 +10542,9 @@ product checkout css
   align-items: center;
 }
 
+.swiper-slide img{
+  max-height: 100px;
+}
 
 .site-header {
   color: #000;
@@ -10558,3 +10559,286 @@ product checkout css
 .mobile-menu-container .slicknav_btn a {
   color: #000;
 }
+
+
+/* added ======================================*/
+ .head-image {
+   background-image: url(../../images/banner.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .head-image-2 {
+   background-image: url(../../images/page_header.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .about-image {
+   background-image: url(../../images/about-bg-img.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .head-image h2 {
+   color: white;
+   font-weight: 500;
+   font-size: 3rem;
+   padding: 220px 220px 220px 220px;
+   line-height: 1;
+   box-sizing: border-box;
+   text-align: center;
+ }
+
+ .head-image-2 h2 {
+   color: white;
+   font-weight: 500;
+   font-size: 3rem;
+   padding: 220px 220px 220px 220px;
+   line-height: 1;
+   box-sizing: border-box;
+   text-align: center;
+ }
+
+ .about-image h2 {
+   color: white;
+   font-weight: 900;
+   font-size: 2rem;
+ }
+
+ .about-black-bg {
+   background-color: #000000a3;
+   padding: 10vw;
+   line-height: 1;
+   box-sizing: border-box;
+   text-align: center;
+ }
+
+ .heading h4 {
+   color: #4064D7;
+   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+   padding: 0;
+   margin: 0;
+   line-height: 1;
+   clear: both;
+   font-size: 1.4rem;
+   outline: 0;
+   text-align: center;
+   font-weight: normal;
+ }
+
+ .about-img h3 {
+   color: #4064D7;
+   font-size: 2.1428571428571rem;
+   font-weight: normal;
+   margin-bottom: 20px;
+   line-height: 1.4;
+   text-align: left;
+ }
+
+ .about-img-2 h3 {
+   color: #4064D7;
+   font-size: 2.1428571428571rem;
+   font-weight: normal;
+   margin-bottom: 20px;
+   line-height: 1.4;
+   text-align: right;
+ }
+
+ .about-img-2 p {
+   text-align: right;
+ }
+
+ .about-img img:hover {
+   animation: Shake 0.5s linear;
+ }
+
+ .about-img-2 img:hover {
+   animation: Shake 0.5s linear;
+ }
+
+ /*Using keyframes for shaking an image*/
+ @keyframes Shake {
+   0% {
+     transform: translate(0, 0) rotate(0deg);
+   }
+
+   10% {
+     transform: translate(2px, 2px) rotate(2deg);
+   }
+
+   20% {
+     transform: translate(0, 0) rotate(0eg);
+   }
+
+   30% {
+     transform: translate(-2px, 2px) rotate(-2deg);
+   }
+
+   40% {
+     transform: translate(0, 0) rotate(0deg);
+   }
+
+   50% {
+     transform: translate(2px, 2px) rotate(2deg);
+   }
+
+   60% {
+     transform: translate(0, 0) rotate(0eg);
+   }
+
+   70% {
+     transform: translate(-2px, 2px) rotate(-2deg);
+   }
+
+   80% {
+     transform: translate(0, 0) rotate(0deg);
+   }
+
+   90% {
+     transform: translate(2px, 2px) rotate(2deg);
+   }
+
+   100% {
+     transform: translate(0, 0) rotate(0eg);
+   }
+ }
+
+ .company-details {
+   text-align: center;
+   background-image: url(../../images/green_bg_light-1.jpg);
+   background-size: cover;
+ }
+
+ .company-details h2 {
+   font-weight: 600;
+ }
+
+ .company-details p {
+   color: grey;
+ }
+
+ .heading-2 h4 {
+   color: #4064D7;
+   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+   padding: 0;
+   margin: 0;
+   line-height: 1;
+   clear: both;
+   font-size: 2rem;
+   outline: 0;
+   text-align: center;
+   font-weight: normal;
+ }
+
+ .line {
+   border-top: 1px solid #4064D7;
+   width: 15%;
+   margin: auto;
+ }
+
+ .explore-more h3 {
+   color: #4064D7;
+   font-weight: normal;
+   font-size: 2rem;
+ }
+
+ .mail h4 {
+   color: #23A455;
+   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+   padding: 0;
+   margin: 0;
+   line-height: 1;
+   clear: both;
+   font-size: rem;
+   outline: 0;
+   text-align: center;
+   font-weight: normal;
+ }
+
+ .mail a {
+   color: #4064D7;
+   padding: 0;
+   margin: 0;
+   line-height: 1;
+   clear: both;
+   font-size: 1rem;
+   outline: 0;
+   text-align: center;
+   font-weight: normal;
+ }
+
+ .contact p {
+   color: black;
+ }
+
+
+
+ .contact-form input {
+   width: 100%;
+ }
+
+ .contact-submit-button {
+   border-style: solid;
+   border-top-width: 0;
+   border-right-width: 0;
+   border-left-width: 0;
+   border-bottom-width: 0;
+   color: #ffffff;
+   border-color: #4064d7;
+   background-color: #4064d7;
+   border-radius: 50px;
+   padding-top: 15px;
+   padding-right: 40px;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   font-family: 'Varela Round', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   font-size: 1.0714285714286rem;
+   line-height: 1;
+ }
+
+ .c1line {
+   border-top: 2px solid #4064D7;
+   width: 40%;
+ }
+
+
+
+
+ .key-features p:nth-child(1) {
+   font-size: 1.2rem;
+   font-weight: 600;
+   color: green;
+ }
+
+ .key-features p:nth-child(2) {
+   font-size: 1.1rem;
+ }
+
+ /* media query */
+
+ @media only screen and (max-width: 768px) {
+   .head-image h2 {
+     font-size: 1rem !important;
+     padding: 110px 110px 110px 110px;
+   }
+
+   .head-image-2 h2 {
+     font-size: 1rem !important;
+     padding: 110px 110px 110px 110px;
+   }
+
+   .company-details img {
+     margin-bottom: 40px;
+   }
+
+   .heading-media h4 {
+     font-size: 1rem !important;
+   }
+
+ }
