@@ -10604,7 +10604,7 @@ product checkout css
   color: white;
   font-weight: 500;
   font-size: 3rem;
-  padding: 220px 220px 220px 220px;
+  padding: clamp(30px, 10vw, 500px);
   line-height: 1.5;
   box-sizing: border-box;
   text-align: center;
