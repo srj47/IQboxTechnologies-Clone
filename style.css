@@ -10563,21 +10563,21 @@ product checkout css
 
 /* added ======================================*/
 .head-image {
-  background-image: url(../../images/banner.png);
+  background-image: url(assets/images/banner.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .head-image-2 {
-  background-image: url(../../images/page_header.jpg);
+  background-image: url(assets/images/page_header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .head-image-3 {
-  background-image: url(../../images/network.jpg);
+  background-image: url(assets/images/network.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10594,7 +10594,7 @@ product checkout css
 }
 
 .about-image {
-  background-image: url(../../images/about-bg-img.jpg);
+  background-image: url(assets/images/about-bg-img.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10727,7 +10727,7 @@ product checkout css
 
 .company-details {
   text-align: center;
-  background-image: url(../../images/green_bg_light-1.jpg);
+  background-image: url(assets/images/green_bg_light-1.jpg);
   background-size: cover;
 }
 
