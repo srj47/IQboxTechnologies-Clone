@@ -323,7 +323,7 @@ blockquote:before {
   font-size: 20px;
   float: left;
   margin-right: 20px;
-  line-height: 1;
+  line-height: 1.5;
   font-style: normal;
   position: absolute;
   left: 50%;
@@ -661,7 +661,7 @@ a:visited {
 
 .title-icon-divider {
   color: #0791BE;
-  line-height: 1;
+  line-height: 1.5;
   position: relative;
   margin-top: 25px;
 }
@@ -5728,7 +5728,7 @@ procduct details css
   color: #ffffff;
   border-radius: 100%;
   height: 40px;
-  line-height: 1;
+  line-height: 1.5;
   width: 40px;
   font-size: 13px;
   margin-bottom: 20px;
@@ -5739,7 +5739,7 @@ procduct details css
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .itinerary-timeline-wrap ul {
@@ -5778,7 +5778,7 @@ procduct details css
     border-radius: 100%;
     height: 60px;
     margin-bottom: 0;
-    line-height: 1;
+    line-height: 1.5;
     width: 60px;
     font-size: 13px;
     position: absolute;
@@ -7085,7 +7085,7 @@ procduct details css
   font-size: 300px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .no-content-wrap h1 {
@@ -7322,7 +7322,7 @@ procduct details css
 .faq-testimonial .testimonial-content i {
   font-size: 40px;
   margin-bottom: 12px;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .faq-testimonial .testimonial-content p:last-child {
@@ -8744,7 +8744,7 @@ product checkout css
 .widget-support-wrap .icon {
   font-size: 52px;
   margin-bottom: 15px;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .widget-support-wrap .support-content h5 {
@@ -8758,7 +8758,7 @@ product checkout css
   display: block;
   margin-bottom: 10px;
   color: #101F46;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 700;
 }
 
@@ -10542,7 +10542,7 @@ product checkout css
   align-items: center;
 }
 
-.swiper-slide img{
+.swiper-slide img {
   max-height: 100px;
 }
 
@@ -10562,283 +10562,305 @@ product checkout css
 
 
 /* added ======================================*/
- .head-image {
-   background-image: url(../../images/banner.png);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+.head-image {
+  background-image: url(../../images/banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
- .head-image-2 {
-   background-image: url(../../images/page_header.jpg);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+.head-image-2 {
+  background-image: url(../../images/page_header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
- .about-image {
-   background-image: url(../../images/about-bg-img.jpg);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+.head-image-3 {
+  background-image: url(../../images/network.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head-image-3 h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 3rem;
+  padding: clamp(30px, 10vw, 500px);
+  /* margin: clamp(30px,10vw, 300px); */
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: center;
+}
 
- .head-image h2 {
-   color: white;
-   font-weight: 500;
-   font-size: 3rem;
-   padding: 220px 220px 220px 220px;
-   line-height: 1;
-   box-sizing: border-box;
-   text-align: center;
- }
+.about-image {
+  background-image: url(../../images/about-bg-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
- .head-image-2 h2 {
-   color: white;
-   font-weight: 500;
-   font-size: 3rem;
-   padding: 220px 220px 220px 220px;
-   line-height: 1;
-   box-sizing: border-box;
-   text-align: center;
- }
+.head-image h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 3rem;
+  padding: 220px 220px 220px 220px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: center;
+}
 
- .about-image h2 {
-   color: white;
-   font-weight: 900;
-   font-size: 2rem;
- }
+.head-image-2 h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 3rem;
+  padding: 120px 120px 120px 120px;
+  /* margin: clamp(30px,10vw, 300px); */
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: center;
+}
 
- .about-black-bg {
-   background-color: #000000a3;
-   padding: 10vw;
-   line-height: 1;
-   box-sizing: border-box;
-   text-align: center;
- }
+.about-image h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
+}
 
- .heading h4 {
-   color: #4064D7;
-   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
-   padding: 0;
-   margin: 0;
-   line-height: 1;
-   clear: both;
-   font-size: 1.4rem;
-   outline: 0;
-   text-align: center;
-   font-weight: normal;
- }
+.about-black-bg {
+  background-color: #000000a3;
+  padding: 10vw;
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: center;
+}
 
- .about-img h3 {
-   color: #4064D7;
-   font-size: 2.1428571428571rem;
-   font-weight: normal;
-   margin-bottom: 20px;
-   line-height: 1.4;
-   text-align: left;
- }
+.heading h4 {
+  color: #4064D7;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  clear: both;
+  font-size: 1.4rem;
+  outline: 0;
+  text-align: center;
+  font-weight: normal;
+}
 
- .about-img-2 h3 {
-   color: #4064D7;
-   font-size: 2.1428571428571rem;
-   font-weight: normal;
-   margin-bottom: 20px;
-   line-height: 1.4;
-   text-align: right;
- }
+.about-img h3 {
+  color: #4064D7;
+  font-size: 2.1428571428571rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: left;
+}
 
- .about-img-2 p {
-   text-align: right;
- }
+.about-img-2 h3 {
+  color: #4064D7;
+  font-size: 2.1428571428571rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: right;
+}
 
- .about-img img:hover {
-   animation: Shake 0.5s linear;
- }
+.about-img-2 p {
+  text-align: right;
+}
 
- .about-img-2 img:hover {
-   animation: Shake 0.5s linear;
- }
+.about-img img:hover {
+  animation: Shake 0.5s linear;
+}
 
- /*Using keyframes for shaking an image*/
- @keyframes Shake {
-   0% {
-     transform: translate(0, 0) rotate(0deg);
-   }
+.about-img-2 img:hover {
+  animation: Shake 0.5s linear;
+}
 
-   10% {
-     transform: translate(2px, 2px) rotate(2deg);
-   }
+/*Using keyframes for shaking an image*/
+@keyframes Shake {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 
-   20% {
-     transform: translate(0, 0) rotate(0eg);
-   }
+  10% {
+    transform: translate(2px, 2px) rotate(2deg);
+  }
 
-   30% {
-     transform: translate(-2px, 2px) rotate(-2deg);
-   }
+  20% {
+    transform: translate(0, 0) rotate(0eg);
+  }
 
-   40% {
-     transform: translate(0, 0) rotate(0deg);
-   }
+  30% {
+    transform: translate(-2px, 2px) rotate(-2deg);
+  }
 
-   50% {
-     transform: translate(2px, 2px) rotate(2deg);
-   }
+  40% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 
-   60% {
-     transform: translate(0, 0) rotate(0eg);
-   }
+  50% {
+    transform: translate(2px, 2px) rotate(2deg);
+  }
 
-   70% {
-     transform: translate(-2px, 2px) rotate(-2deg);
-   }
+  60% {
+    transform: translate(0, 0) rotate(0eg);
+  }
 
-   80% {
-     transform: translate(0, 0) rotate(0deg);
-   }
+  70% {
+    transform: translate(-2px, 2px) rotate(-2deg);
+  }
 
-   90% {
-     transform: translate(2px, 2px) rotate(2deg);
-   }
+  80% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 
-   100% {
-     transform: translate(0, 0) rotate(0eg);
-   }
- }
+  90% {
+    transform: translate(2px, 2px) rotate(2deg);
+  }
 
- .company-details {
-   text-align: center;
-   background-image: url(../../images/green_bg_light-1.jpg);
-   background-size: cover;
- }
+  100% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+}
 
- .company-details h2 {
-   font-weight: 600;
- }
+.company-details {
+  text-align: center;
+  background-image: url(../../images/green_bg_light-1.jpg);
+  background-size: cover;
+}
 
- .company-details p {
-   color: grey;
- }
+.company-details h2 {
+  font-weight: 600;
+}
 
- .heading-2 h4 {
-   color: #4064D7;
-   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
-   padding: 0;
-   margin: 0;
-   line-height: 1;
-   clear: both;
-   font-size: 2rem;
-   outline: 0;
-   text-align: center;
-   font-weight: normal;
- }
+.company-details p {
+  color: grey;
+}
 
- .line {
-   border-top: 1px solid #4064D7;
-   width: 15%;
-   margin: auto;
- }
+.heading-2 h4 {
+  color: #4064D7;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  clear: both;
+  font-size: 2rem;
+  outline: 0;
+  text-align: center;
+  font-weight: normal;
+}
 
- .explore-more h3 {
-   color: #4064D7;
-   font-weight: normal;
-   font-size: 2rem;
- }
+.line {
+  border-top: 1px solid #4064D7;
+  width: 15%;
+  margin: auto;
+}
 
- .mail h4 {
-   color: #23A455;
-   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
-   padding: 0;
-   margin: 0;
-   line-height: 1;
-   clear: both;
-   font-size: rem;
-   outline: 0;
-   text-align: center;
-   font-weight: normal;
- }
+.explore-more h3 {
+  color: #4064D7;
+  font-weight: normal;
+  font-size: 2rem;
+}
 
- .mail a {
-   color: #4064D7;
-   padding: 0;
-   margin: 0;
-   line-height: 1;
-   clear: both;
-   font-size: 1rem;
-   outline: 0;
-   text-align: center;
-   font-weight: normal;
- }
+.mail h4 {
+  color: #23A455;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  clear: both;
+  font-size: rem;
+  outline: 0;
+  text-align: center;
+  font-weight: normal;
+}
 
- .contact p {
-   color: black;
- }
+.mail a {
+  color: #4064D7;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  clear: both;
+  font-size: 1rem;
+  outline: 0;
+  text-align: center;
+  font-weight: normal;
+}
 
-
-
- .contact-form input {
-   width: 100%;
- }
-
- .contact-submit-button {
-   border-style: solid;
-   border-top-width: 0;
-   border-right-width: 0;
-   border-left-width: 0;
-   border-bottom-width: 0;
-   color: #ffffff;
-   border-color: #4064d7;
-   background-color: #4064d7;
-   border-radius: 50px;
-   padding-top: 15px;
-   padding-right: 40px;
-   padding-bottom: 15px;
-   padding-left: 40px;
-   font-family: 'Varela Round', sans-serif;
-   font-weight: 400;
-   font-size: 15px;
-   font-size: 1.0714285714286rem;
-   line-height: 1;
- }
-
- .c1line {
-   border-top: 2px solid #4064D7;
-   width: 40%;
- }
+.contact p {
+  color: black;
+}
 
 
 
+.contact-form input {
+  width: 100%;
+}
 
- .key-features p:nth-child(1) {
-   font-size: 1.2rem;
-   font-weight: 600;
-   color: green;
- }
+.contact-submit-button {
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  color: #ffffff;
+  border-color: #4064d7;
+  background-color: #4064d7;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: 1.0714285714286rem;
+  line-height: 1.5;
+}
 
- .key-features p:nth-child(2) {
-   font-size: 1.1rem;
- }
+.c1line {
+  border-top: 2px solid #4064D7;
+  width: 40%;
+}
 
- /* media query */
 
- @media only screen and (max-width: 768px) {
-   .head-image h2 {
-     font-size: 1rem !important;
-     padding: 110px 110px 110px 110px;
-   }
 
-   .head-image-2 h2 {
-     font-size: 1rem !important;
-     padding: 110px 110px 110px 110px;
-   }
 
-   .company-details img {
-     margin-bottom: 40px;
-   }
+.key-features p:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: green;
+}
 
-   .heading-media h4 {
-     font-size: 1rem !important;
-   }
+.key-features p:nth-child(2) {
+  font-size: 1.1rem;
+}
 
- }
+/* media query */
+
+@media only screen and (max-width: 768px) {
+  .head-image h2 {
+    font-size: 1rem !important;
+    padding: 110px 110px 110px 110px;
+  }
+
+  .head-image-2 h2 {
+    font-size: 1rem !important;
+    padding: 100px 30px;
+  }
+  .head-image-3 h2 {
+    font-size: 1rem !important;
+    padding: 100px 30px;
+  }
+
+  .company-details img {
+    margin-bottom: 40px;
+  }
+
+  .heading-media h4 {
+    font-size: 1rem !important;
+  }
+
+}
