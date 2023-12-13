@@ -2775,7 +2775,7 @@ input[type=submit]:focus {
 }
 
 .shape-search-section .slider-shape {
-  background-image: url(assets/images/slider-pattern.png);
+  background-image: url("assets/images/slider-pattern.png");
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
@@ -5204,7 +5204,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .inner-shape {
-  background-image: url(assets/images/slider-pattern.png);
+  background-image: url("assets/images/slider-pattern.png");
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
@@ -5225,7 +5225,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .inner-banner-gray .inner-shape {
-  background-image: url(assets/images/banner-pattern.png);
+  background-image: url("assets/images/banner-pattern.png");
 }
 
 .inner-baner-container {
@@ -7443,7 +7443,7 @@ procduct details css
 }
 
 .testimonial-page-section .testimonial-item:before {
-  background-image: url(assets/images/icon18.png);
+  background-image: url("assets/images/icon18.png");
   background-repeat: no-repeat;
   background-position: 40px 14px;
   content: "";
@@ -10563,21 +10563,21 @@ product checkout css
 
 /* added ======================================*/
 .head-image {
-  background-image: url(assets/images/banner.png);
+  background-image: url("assets/images/banner.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .head-image-2 {
-  background-image: url(assets/images/page_header.jpg);
+  background-image: url("assets/images/page_header.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .head-image-3 {
-  background-image: url(assets/images/network.jpg);
+  background-image: url("assets/images/network.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10594,7 +10594,7 @@ product checkout css
 }
 
 .about-image {
-  background-image: url(assets/images/about-bg-img.jpg);
+  background-image: url("assets/images/about-bg-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10727,7 +10727,7 @@ product checkout css
 
 .company-details {
   text-align: center;
-  background-image: url(assets/images/green_bg_light-1.jpg);
+  background-image: url("assets/images/green_bg_light-1.jpg");
   background-size: cover;
 }
 
