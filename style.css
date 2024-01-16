@@ -10879,13 +10879,13 @@ product checkout css
 
 }
 
-/* Add by Anupam*/
+/* Add new aup========================================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
 
 .container-tr {
-  max-width: 120rem;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  padding: 5rem 2rem;
 }
 
 .card-grid {
@@ -10971,17 +10971,28 @@ product checkout css
 
 .head-image-tr {
   background-image: url("assets/images/network.jpg");
-  background-position: center center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
 .head-image-tr h2 {
   color: white;
-  font-weight: 500;
-  font-size: 3rem;
+  font-weight: 900;
+  font-size: clamp(16px, 3vw, 40px);
   padding: clamp(30px, 10vw, 500px);
+  margin-top: 50px;
   /* margin: clamp(30px,10vw, 300px); */
   line-height: 1.5;
   box-sizing: border-box;
   text-align: center;
+}
+
+ 
+.course-container img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+  /* border: 1px solid white; */
+}
+.course-container h3{
+  margin-top: 20px;
 }
